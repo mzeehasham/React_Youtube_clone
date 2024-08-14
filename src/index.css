@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+body{
+  background-color: rgb(15, 15, 15);
+  color: #ffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.sidebar,video_sec,html{
+  scrollbar-gutter: stable both-edges;
+}
+@layer utilities {
+  html::-webkit-scrollbar{
+    width: 7px;
+  }
+  html::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+    border: 4px solid rgb(63 63 70);
+  }
+
+  .video_sec::-webkit-scrollbar {
+    width: 7px;
+  }
+  .video_sec::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+    border: 4px solid rgb(63 63 70);
+  }
+  .sidebar::-webkit-scrollbar {
+    width: 7px;
+  }
+  .sidebar::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+    border: 4px solid rgb(63 63 70);
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
