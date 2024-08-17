@@ -31,7 +31,7 @@ The **React YouTube Clone** is a responsive web application that replicates some
 1. **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/yourusername/react-youtube-clone.git](https://github.com/mzeehasham/React_Youtube_clone.git)
+    git clone https://github.com/mzeehasham/React_Youtube_clone.git
     cd react-youtube-clone
     ```
 
